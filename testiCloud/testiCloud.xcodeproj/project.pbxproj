@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6AAB7A1533DEF100F80D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB791533DEF100F80D27 /* UIKit.framework */; };
+		DD6AAB7C1533DEF100F80D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB7B1533DEF100F80D27 /* Foundation.framework */; };
+		DD6AAB7E1533DEF100F80D27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB7D1533DEF100F80D27 /* CoreGraphics.framework */; };
+		DD6AAB841533DEF100F80D27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB821533DEF100F80D27 /* InfoPlist.strings */; };
+		DD6AAB861533DEF100F80D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAB851533DEF100F80D27 /* main.m */; };
+		DD6AAB8A1533DEF100F80D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAB891533DEF100F80D27 /* AppDelegate.m */; };
+		DD6AAB8D1533DEF100F80D27 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB8B1533DEF100F80D27 /* MainStoryboard_iPhone.storyboard */; };
+		DD6AAB901533DEF100F80D27 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB8E1533DEF100F80D27 /* MainStoryboard_iPad.storyboard */; };
+		DD6AAB931533DEF100F80D27 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAB921533DEF100F80D27 /* FirstViewController.m */; };
+		DD6AAB951533DEF100F80D27 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB941533DEF100F80D27 /* first.png */; };
+		DD6AAB971533DEF100F80D27 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB961533DEF100F80D27 /* first@2x.png */; };
+		DD6AAB9A1533DEF100F80D27 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAB991533DEF100F80D27 /* SecondViewController.m */; };
+		DD6AAB9C1533DEF100F80D27 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB9B1533DEF100F80D27 /* second.png */; };
+		DD6AAB9E1533DEF100F80D27 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB9D1533DEF100F80D27 /* second@2x.png */; };
+		DD6AABA61533DEF100F80D27 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AABA51533DEF100F80D27 /* SenTestingKit.framework */; };
+		DD6AABA71533DEF100F80D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB791533DEF100F80D27 /* UIKit.framework */; };
+		DD6AABA81533DEF100F80D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB7B1533DEF100F80D27 /* Foundation.framework */; };
+		DD6AABB01533DEF100F80D27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD6AABAE1533DEF100F80D27 /* InfoPlist.strings */; };
+		DD6AABB31533DEF100F80D27 /* testiCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AABB21533DEF100F80D27 /* testiCloudTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD6AABA91533DEF100F80D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6AAB6C1533DEF000F80D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6AAB741533DEF000F80D27;
+			remoteInfo = testiCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD6AAB751533DEF000F80D27 /* testiCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testiCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6AAB791533DEF100F80D27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD6AAB7B1533DEF100F80D27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD6AAB7D1533DEF100F80D27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD6AAB811533DEF100F80D27 /* testiCloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testiCloud-Info.plist"; sourceTree = "<group>"; };
+		DD6AAB831533DEF100F80D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD6AAB851533DEF100F80D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD6AAB871533DEF100F80D27 /* testiCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testiCloud-Prefix.pch"; sourceTree = "<group>"; };
+		DD6AAB881533DEF100F80D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD6AAB891533DEF100F80D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD6AAB8C1533DEF100F80D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DD6AAB8F1533DEF100F80D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DD6AAB911533DEF100F80D27 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DD6AAB921533DEF100F80D27 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DD6AAB941533DEF100F80D27 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		DD6AAB961533DEF100F80D27 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		DD6AAB981533DEF100F80D27 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DD6AAB991533DEF100F80D27 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DD6AAB9B1533DEF100F80D27 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		DD6AAB9D1533DEF100F80D27 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		DD6AABA41533DEF100F80D27 /* testiCloudTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testiCloudTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6AABA51533DEF100F80D27 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD6AABAD1533DEF100F80D27 /* testiCloudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testiCloudTests-Info.plist"; sourceTree = "<group>"; };
+		DD6AABAF1533DEF100F80D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD6AABB11533DEF100F80D27 /* testiCloudTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testiCloudTests.h; sourceTree = "<group>"; };
+		DD6AABB21533DEF100F80D27 /* testiCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testiCloudTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6AAB721533DEF000F80D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6AAB7A1533DEF100F80D27 /* UIKit.framework in Frameworks */,
+				DD6AAB7C1533DEF100F80D27 /* Foundation.framework in Frameworks */,
+				DD6AAB7E1533DEF100F80D27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6AABA01533DEF100F80D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6AABA61533DEF100F80D27 /* SenTestingKit.framework in Frameworks */,
+				DD6AABA71533DEF100F80D27 /* UIKit.framework in Frameworks */,
+				DD6AABA81533DEF100F80D27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6AAB6A1533DEF000F80D27 = {
+			isa = PBXGroup;
+			children = (
+				DD6AAB7F1533DEF100F80D27 /* testiCloud */,
+				DD6AABAB1533DEF100F80D27 /* testiCloudTests */,
+				DD6AAB781533DEF000F80D27 /* Frameworks */,
+				DD6AAB761533DEF000F80D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6AAB761533DEF000F80D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AAB751533DEF000F80D27 /* testiCloud.app */,
+				DD6AABA41533DEF100F80D27 /* testiCloudTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6AAB781533DEF000F80D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AAB791533DEF100F80D27 /* UIKit.framework */,
+				DD6AAB7B1533DEF100F80D27 /* Foundation.framework */,
+				DD6AAB7D1533DEF100F80D27 /* CoreGraphics.framework */,
+				DD6AABA51533DEF100F80D27 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6AAB7F1533DEF100F80D27 /* testiCloud */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AAB881533DEF100F80D27 /* AppDelegate.h */,
+				DD6AAB891533DEF100F80D27 /* AppDelegate.m */,
+				DD6AAB8B1533DEF100F80D27 /* MainStoryboard_iPhone.storyboard */,
+				DD6AAB8E1533DEF100F80D27 /* MainStoryboard_iPad.storyboard */,
+				DD6AAB911533DEF100F80D27 /* FirstViewController.h */,
+				DD6AAB921533DEF100F80D27 /* FirstViewController.m */,
+				DD6AAB941533DEF100F80D27 /* first.png */,
+				DD6AAB961533DEF100F80D27 /* first@2x.png */,
+				DD6AAB981533DEF100F80D27 /* SecondViewController.h */,
+				DD6AAB991533DEF100F80D27 /* SecondViewController.m */,
+				DD6AAB9B1533DEF100F80D27 /* second.png */,
+				DD6AAB9D1533DEF100F80D27 /* second@2x.png */,
+				DD6AAB801533DEF100F80D27 /* Supporting Files */,
+			);
+			path = testiCloud;
+			sourceTree = "<group>";
+		};
+		DD6AAB801533DEF100F80D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AAB811533DEF100F80D27 /* testiCloud-Info.plist */,
+				DD6AAB821533DEF100F80D27 /* InfoPlist.strings */,
+				DD6AAB851533DEF100F80D27 /* main.m */,
+				DD6AAB871533DEF100F80D27 /* testiCloud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD6AABAB1533DEF100F80D27 /* testiCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AABB11533DEF100F80D27 /* testiCloudTests.h */,
+				DD6AABB21533DEF100F80D27 /* testiCloudTests.m */,
+				DD6AABAC1533DEF100F80D27 /* Supporting Files */,
+			);
+			path = testiCloudTests;
+			sourceTree = "<group>";
+		};
+		DD6AABAC1533DEF100F80D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AABAD1533DEF100F80D27 /* testiCloudTests-Info.plist */,
+				DD6AABAE1533DEF100F80D27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6AAB741533DEF000F80D27 /* testiCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6AABB61533DEF100F80D27 /* Build configuration list for PBXNativeTarget "testiCloud" */;
+			buildPhases = (
+				DD6AAB711533DEF000F80D27 /* Sources */,
+				DD6AAB721533DEF000F80D27 /* Frameworks */,
+				DD6AAB731533DEF000F80D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testiCloud;
+			productName = testiCloud;
+			productReference = DD6AAB751533DEF000F80D27 /* testiCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD6AABA31533DEF100F80D27 /* testiCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6AABB91533DEF100F80D27 /* Build configuration list for PBXNativeTarget "testiCloudTests" */;
+			buildPhases = (
+				DD6AAB9F1533DEF100F80D27 /* Sources */,
+				DD6AABA01533DEF100F80D27 /* Frameworks */,
+				DD6AABA11533DEF100F80D27 /* Resources */,
+				DD6AABA21533DEF100F80D27 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6AABAA1533DEF100F80D27 /* PBXTargetDependency */,
+			);
+			name = testiCloudTests;
+			productName = testiCloudTests;
+			productReference = DD6AABA41533DEF100F80D27 /* testiCloudTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6AAB6C1533DEF000F80D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DD6AAB6F1533DEF000F80D27 /* Build configuration list for PBXProject "testiCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD6AAB6A1533DEF000F80D27;
+			productRefGroup = DD6AAB761533DEF000F80D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6AAB741533DEF000F80D27 /* testiCloud */,
+				DD6AABA31533DEF100F80D27 /* testiCloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6AAB731533DEF000F80D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6AAB841533DEF100F80D27 /* InfoPlist.strings in Resources */,
+				DD6AAB8D1533DEF100F80D27 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DD6AAB901533DEF100F80D27 /* MainStoryboard_iPad.storyboard in Resources */,
+				DD6AAB951533DEF100F80D27 /* first.png in Resources */,
+				DD6AAB971533DEF100F80D27 /* first@2x.png in Resources */,
+				DD6AAB9C1533DEF100F80D27 /* second.png in Resources */,
+				DD6AAB9E1533DEF100F80D27 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6AABA11533DEF100F80D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6AABB01533DEF100F80D27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD6AABA21533DEF100F80D27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6AAB711533DEF000F80D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6AAB861533DEF100F80D27 /* main.m in Sources */,
+				DD6AAB8A1533DEF100F80D27 /* AppDelegate.m in Sources */,
+				DD6AAB931533DEF100F80D27 /* FirstViewController.m in Sources */,
+				DD6AAB9A1533DEF100F80D27 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6AAB9F1533DEF100F80D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6AABB31533DEF100F80D27 /* testiCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6AABAA1533DEF100F80D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6AAB741533DEF000F80D27 /* testiCloud */;
+			targetProxy = DD6AABA91533DEF100F80D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD6AAB821533DEF100F80D27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6AAB831533DEF100F80D27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD6AAB8B1533DEF100F80D27 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6AAB8C1533DEF100F80D27 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6AAB8E1533DEF100F80D27 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6AAB8F1533DEF100F80D27 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6AABAE1533DEF100F80D27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6AABAF1533DEF100F80D27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6AABB41533DEF100F80D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6AABB51533DEF100F80D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6AABB71533DEF100F80D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testiCloud/testiCloud-Prefix.pch";
+				INFOPLIST_FILE = "testiCloud/testiCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD6AABB81533DEF100F80D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testiCloud/testiCloud-Prefix.pch";
+				INFOPLIST_FILE = "testiCloud/testiCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD6AABBA1533DEF100F80D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testiCloud.app/testiCloud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testiCloud/testiCloud-Prefix.pch";
+				INFOPLIST_FILE = "testiCloudTests/testiCloudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DD6AABBB1533DEF100F80D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testiCloud.app/testiCloud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testiCloud/testiCloud-Prefix.pch";
+				INFOPLIST_FILE = "testiCloudTests/testiCloudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6AAB6F1533DEF000F80D27 /* Build configuration list for PBXProject "testiCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6AABB41533DEF100F80D27 /* Debug */,
+				DD6AABB51533DEF100F80D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6AABB61533DEF100F80D27 /* Build configuration list for PBXNativeTarget "testiCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6AABB71533DEF100F80D27 /* Debug */,
+				DD6AABB81533DEF100F80D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD6AABB91533DEF100F80D27 /* Build configuration list for PBXNativeTarget "testiCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6AABBA1533DEF100F80D27 /* Debug */,
+				DD6AABBB1533DEF100F80D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6AAB6C1533DEF000F80D27 /* Project object */;
+}
