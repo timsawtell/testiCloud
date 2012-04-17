@@ -15,6 +15,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSURL *ubiq = [[NSFileManager defaultManager] 
+                   URLForUbiquityContainerIdentifier:nil];
+    if (ubiq) {
+        NSLog(@"iCloud access at %@", ubiq);
+        // TODO: Load document... 
+    } else {
+        NSLog(@"No iCloud access");
+    }
+    
     return YES;
 }
 							

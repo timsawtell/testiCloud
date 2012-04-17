@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893472E3153A41C20094CAF1 /* iModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 893472E2153A41C20094CAF1 /* iModel.m */; };
+		89EE9DB3153A52CA002942F6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE9DB2153A52CA002942F6 /* Model.m */; };
 		DD6AAB7A1533DEF100F80D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB791533DEF100F80D27 /* UIKit.framework */; };
 		DD6AAB7C1533DEF100F80D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB7B1533DEF100F80D27 /* Foundation.framework */; };
 		DD6AAB7E1533DEF100F80D27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB7D1533DEF100F80D27 /* CoreGraphics.framework */; };
@@ -18,9 +20,6 @@
 		DD6AAB931533DEF100F80D27 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAB921533DEF100F80D27 /* FirstViewController.m */; };
 		DD6AAB951533DEF100F80D27 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB941533DEF100F80D27 /* first.png */; };
 		DD6AAB971533DEF100F80D27 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB961533DEF100F80D27 /* first@2x.png */; };
-		DD6AAB9A1533DEF100F80D27 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AAB991533DEF100F80D27 /* SecondViewController.m */; };
-		DD6AAB9C1533DEF100F80D27 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB9B1533DEF100F80D27 /* second.png */; };
-		DD6AAB9E1533DEF100F80D27 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6AAB9D1533DEF100F80D27 /* second@2x.png */; };
 		DD6AABA61533DEF100F80D27 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AABA51533DEF100F80D27 /* SenTestingKit.framework */; };
 		DD6AABA71533DEF100F80D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB791533DEF100F80D27 /* UIKit.framework */; };
 		DD6AABA81533DEF100F80D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6AAB7B1533DEF100F80D27 /* Foundation.framework */; };
@@ -39,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		893472E1153A41C20094CAF1 /* iModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iModel.h; sourceTree = "<group>"; };
+		893472E2153A41C20094CAF1 /* iModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iModel.m; sourceTree = "<group>"; };
+		89EE9DB0153A5056002942F6 /* testiCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = testiCloud.entitlements; sourceTree = "<group>"; };
+		89EE9DB1153A52CA002942F6 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		89EE9DB2153A52CA002942F6 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		DD6AAB751533DEF000F80D27 /* testiCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testiCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6AAB791533DEF100F80D27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD6AAB7B1533DEF100F80D27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,10 +59,6 @@
 		DD6AAB921533DEF100F80D27 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		DD6AAB941533DEF100F80D27 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		DD6AAB961533DEF100F80D27 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		DD6AAB981533DEF100F80D27 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DD6AAB991533DEF100F80D27 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		DD6AAB9B1533DEF100F80D27 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		DD6AAB9D1533DEF100F80D27 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		DD6AABA41533DEF100F80D27 /* testiCloudTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testiCloudTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6AABA51533DEF100F80D27 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		DD6AABAD1533DEF100F80D27 /* testiCloudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testiCloudTests-Info.plist"; sourceTree = "<group>"; };
@@ -91,6 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		893472DF153A41890094CAF1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				893472E0153A41960094CAF1 /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		893472E0153A41960094CAF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				893472E1153A41C20094CAF1 /* iModel.h */,
+				893472E2153A41C20094CAF1 /* iModel.m */,
+				89EE9DB1153A52CA002942F6 /* Model.h */,
+				89EE9DB2153A52CA002942F6 /* Model.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		DD6AAB6A1533DEF000F80D27 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +143,8 @@
 		DD6AAB7F1533DEF100F80D27 /* testiCloud */ = {
 			isa = PBXGroup;
 			children = (
+				89EE9DB0153A5056002942F6 /* testiCloud.entitlements */,
+				893472DF153A41890094CAF1 /* Classes */,
 				DD6AAB881533DEF100F80D27 /* AppDelegate.h */,
 				DD6AAB891533DEF100F80D27 /* AppDelegate.m */,
 				DD6AAB8B1533DEF100F80D27 /* MainStoryboard_iPhone.storyboard */,
@@ -132,10 +153,6 @@
 				DD6AAB921533DEF100F80D27 /* FirstViewController.m */,
 				DD6AAB941533DEF100F80D27 /* first.png */,
 				DD6AAB961533DEF100F80D27 /* first@2x.png */,
-				DD6AAB981533DEF100F80D27 /* SecondViewController.h */,
-				DD6AAB991533DEF100F80D27 /* SecondViewController.m */,
-				DD6AAB9B1533DEF100F80D27 /* second.png */,
-				DD6AAB9D1533DEF100F80D27 /* second@2x.png */,
 				DD6AAB801533DEF100F80D27 /* Supporting Files */,
 			);
 			path = testiCloud;
@@ -246,8 +263,6 @@
 				DD6AAB901533DEF100F80D27 /* MainStoryboard_iPad.storyboard in Resources */,
 				DD6AAB951533DEF100F80D27 /* first.png in Resources */,
 				DD6AAB971533DEF100F80D27 /* first@2x.png in Resources */,
-				DD6AAB9C1533DEF100F80D27 /* second.png in Resources */,
-				DD6AAB9E1533DEF100F80D27 /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +300,8 @@
 				DD6AAB861533DEF100F80D27 /* main.m in Sources */,
 				DD6AAB8A1533DEF100F80D27 /* AppDelegate.m in Sources */,
 				DD6AAB931533DEF100F80D27 /* FirstViewController.m in Sources */,
-				DD6AAB9A1533DEF100F80D27 /* SecondViewController.m in Sources */,
+				893472E3153A41C20094CAF1 /* iModel.m in Sources */,
+				89EE9DB3153A52CA002942F6 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +409,15 @@
 		DD6AABB71533DEF100F80D27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = testiCloud/testiCloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testiCloud/testiCloud-Prefix.pch";
 				INFOPLIST_FILE = "testiCloud/testiCloud-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +425,13 @@
 		DD6AABB81533DEF100F80D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = testiCloud/testiCloud.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testiCloud/testiCloud-Prefix.pch";
 				INFOPLIST_FILE = "testiCloud/testiCloud-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +489,7 @@
 				DD6AABB81533DEF100F80D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD6AABB91533DEF100F80D27 /* Build configuration list for PBXNativeTarget "testiCloudTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +498,7 @@
 				DD6AABBB1533DEF100F80D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

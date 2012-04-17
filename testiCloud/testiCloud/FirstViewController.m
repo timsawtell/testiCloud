@@ -14,10 +14,30 @@
 
 @implementation FirstViewController
 
+@synthesize model;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.model = [[iModel alloc] initWithFileURL:[iModel localDocumentsDirectoryURL]];
+    NSLog(@"file url: %@",self.model.fileURL);
+    [self.model saveToURL:self.model.fileURL forSaveOperation:UIDocumentSaveForCreating completionHandler:^(BOOL success){
+        if (success) {
+            NSLog(@"saved/created");
+        } else {
+            NSLog(@"not save");
+        }
+    }];
+    
+    [self.model openWithCompletionHandler:^(BOOL success) {
+        if (success) {
+            NSLog(@"yay");
+        } else {
+            NSLog(@"crap");
+        }
+    }];
+    
+    self.model.model.one = @"Ab";
 }
 
 - (void)viewDidUnload
@@ -26,13 +46,9 @@
     // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+-(void)modelDocumentContentsUpdated:(iModel*)iModelDocument
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
+    NSLog(@"stuff changed");
 }
 
 @end

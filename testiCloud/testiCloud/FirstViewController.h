@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iModel.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <iModelDocumentDelegate>
+
+-(void)modelDocumentContentsUpdated:(iModel*)iModelDocument;
+@property (nonatomic, strong) iModel *model;
 
 @end
